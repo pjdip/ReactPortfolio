@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "./style.css";
 
-const Navb = () => {
+const Navbr = () => {
     return (
         <Navbar bg="success" expand="sm">
             <Navbar.Brand>Philip DiPaula</Navbar.Brand>
@@ -18,4 +18,4 @@ const Navb = () => {
     );
 };
 
-export default Navb;
+export default Navbr;
