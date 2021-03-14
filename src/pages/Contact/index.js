@@ -3,7 +3,7 @@ import "./style.css";
 
 const Contact = () => {
     return (
-        <div className="contact row mt-3">
+        <div class="contact row mt-3">
             <div class="col">
                 <ul>
                     <li>
