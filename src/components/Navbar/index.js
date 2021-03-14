@@ -4,14 +4,14 @@ import "./style.css";
 
 const Navbr = () => {
     return (
-        <Navbar bg="success" expand="sm">
-            <Navbar.Brand text="white">Philip DiPaula</Navbar.Brand>
+        <Navbar bg="primary" expand="sm">
+            <Navbar.Brand className="text-white">Philip DiPaula</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link href="/about">About</Nav.Link>
-                    <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+                <Nav className="ml-auto mr-3">
+                    <Nav.Link className="text-white" href="/about">About</Nav.Link>
+                    <Nav.Link className="text-white" href="/projects">Projects</Nav.Link>
+                    <Nav.Link className="text-white" href="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
