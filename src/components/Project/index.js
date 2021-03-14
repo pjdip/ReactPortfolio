@@ -1,31 +1,6 @@
 import React from "react";
 import "./style.css";
 
-/*
-props.appLink
-"https://pjdip.github.io/CryptoPURRency/"
-
-props.title
-CryptoPURRency
-
-props.github
-"https://github.com/pjdip/CryptoPURRency"
-
-props.description
-A mobile-responsive cryptocurrency tracking app including simple portfolio tracking feature using jQuery, Tailwind, Chart.js, and CoinGecko/Giphy APIs
-
-props.img1
-"./assets/images/mainpage.png"
-props.img1alt
-"app mainpage displaying important data for top 25 cryptocurrencies"
-
-props.img2
-"./assets/images/bitcoin.png"
-props.img2alt
-"example of data displayed for an individual coin"
-
- */
-
 const Project = (props) => {
     return (
         <section class="row mx-1">
@@ -40,7 +15,7 @@ const Project = (props) => {
         
                 <div class="row mx-1">
                     <div class="col-12 mb-4">
-                        <p class="projRepo"><a target="_blank" href={props.github}>
+                        <p class="projRepo"><a target="_blank" href={props.repoLink}>
                             <i class="fab fa-github">
                             </i>Repository</a></p>
                         <p class="projDescription">{props.description}</p>
