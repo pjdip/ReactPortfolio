@@ -3,7 +3,7 @@ import "./style.css";
 
 const Contact = () => {
     return (
-        <div class="contact row mt-3">
+        <main class="contact row mt-3">
             <div class="col">
                 <ul>
                     <li>
@@ -37,7 +37,7 @@ const Contact = () => {
                     </li>
                 </ul>
             </div>
-        </div>
+        </main>
     );
 };
 
