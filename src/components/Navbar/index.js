@@ -5,7 +5,7 @@ import "./style.css";
 const Navbr = () => {
     return (
         <Navbar bg="success" expand="sm">
-            <Navbar.Brand>Philip DiPaula</Navbar.Brand>
+            <Navbar.Brand text="white">Philip DiPaula</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
