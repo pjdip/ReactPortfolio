@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbr from "./components/Navbar";
+import Container from "./components/Container";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
@@ -12,9 +13,11 @@ function App() {
         <Router>
             <div>
                 <Navbr />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/projects" component={Projects} />
-                <Route exact path="/contact" component={Contact} />
+                <Container>
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/projects" component={Projects} />
+                    <Route exact path="/contact" component={Contact} />
+                </Container>
                 <Footer />
             </div>
         </Router>

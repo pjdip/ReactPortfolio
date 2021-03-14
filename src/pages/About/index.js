@@ -3,20 +3,20 @@ import "./style.css";
 
 const About = () => {
     return (
-        <main class="container bg-white mt-5 mx-auto">
+        <main className="container bg-white mt-5 mx-auto">
 
-            <div class="row mx-1">
+            <div className="row mx-1">
 
-                <div class="col mt-3">
-                    <h2 class="card-title card-header bg-white text-success pl-0 mb-4">About Me</h2>
+                <div className="col mt-3">
+                    <h2 className="card-title card-header bg-white text-primary pl-0 mb-4">About Me</h2>
                 </div>
             </div>
 
-            <section class="row mx-1">
-                <div class="col-12 mb-4">
+            <section className="row mx-1">
+                <div className="col-12 mb-4">
 
                     <a target="_blank" rel="noreferrer" href="https://pjdip.github.io/Philip-DiPaula-OSU-bootcamp-hwk2/assets/images/prof-pic.jpg">
-                        <img class="img img-thumbnail float-left mr-3" alt="selfie in a hot tub on a cruise ship" src="./assets/images/prof-pic.jpg" />
+                        <img className="img img-thumbnail float-left mr-3" alt="selfie in a hot tub on a cruise ship" src="./assets/images/prof-pic.jpg" />
                     </a>
                     <p>
                         Hello, my name is Philip DiPaula.
@@ -32,7 +32,7 @@ const About = () => {
                         The first order of business is securing financial independence before moving on to less lucrative endeavors.
                     </p>
                 </div>
-                <div class="col-12 mb-4">
+                <div className="col-12 mb-4">
                     <p>
                         I love nature, animals, and hiking in the mountains. I am a beginner rock climber with only gym experience so far.
                         I walk 3 miles with my dog and do calisthenics at the local park every morning.
