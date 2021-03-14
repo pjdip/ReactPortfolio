@@ -2,31 +2,6 @@ import React from "react";
 import Project from "../../components/Project";
 import "./style.css";
 
-/*
-props.appLink
-"https://pjdip.github.io/CryptoPURRency/"
-
-props.title
-CryptoPURRency
-
-props.repoLink
-"https://github.com/pjdip/CryptoPURRency"
-
-props.description
-A mobile-responsive cryptocurrency tracking app including simple portfolio tracking feature using jQuery, Tailwind, Chart.js, and CoinGecko/Giphy APIs
-
-props.img1
-"./assets/images/mainpage.png"
-props.img1alt
-"app mainpage displaying important data for top 25 cryptocurrencies"
-
-props.img2
-"./assets/images/bitcoin.png"
-props.img2alt
-"example of data displayed for an individual coin"
-
- */
-
 const Projects = () => {
     return (
         <main class="container bg-white mt-5 mx-auto">
@@ -40,9 +15,9 @@ const Projects = () => {
                 title={"CryptoPURRency"}
                 repoLink={"https://github.com/pjdip/CryptoPURRency"}
                 description={"A mobile-responsive cryptocurrency tracking app including simple portfolio tracking feature using jQuery, Tailwind, Chart.js, and CoinGecko/Giphy APIs"}
-                img1={"./assets/images/mainpage.png"}
+                img1={process.env.PUBLIC_URL + "/assets/images/mainpage.png"}
                 img1alt={"app mainpage displaying important data for top 25 cryptocurrencies"}
-                img2={"./assets/images/bitcoin.png"}
+                img2={process.env.PUBLIC_URL + "/assets/images/bitcoin.png"}
                 img2alt={"example of data displayed for an individual coin"}
             />
 

@@ -14,7 +14,7 @@ const Contact = () => {
                     </li>
                     <li>
                         <p>
-                            <a target="_blank" href="https://github.com/pjdip">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/pjdip">
                                 <i class="fab fa-github">
                                 </i>
                                 Github
@@ -23,7 +23,7 @@ const Contact = () => {
                     </li>
                     <li>
                         <p>
-                            <a target="_blank" href="https://www.linkedin.com/in/philip-pj-dipaula/">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/philip-pj-dipaula/">
                                 <i class="fab fa-linkedin">
                                 </i>
                                 LinkedIn

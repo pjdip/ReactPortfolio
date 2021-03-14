@@ -81,3 +81,5 @@ react-bootstrap:
 https://www.npmjs.com/package/react-bootstrap
 https://react-bootstrap.github.io/getting-started/introduction/
 
+create-react-app:
+https://create-react-app.dev/docs/using-the-public-folder/
