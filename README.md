@@ -85,3 +85,6 @@ create-react-app:
 https://create-react-app.dev/docs/using-the-public-folder/
 
 https://stackoverflow.com/questions/50709625/link-with-target-blank-and-rel-noopener-noreferrer-still-vulnerable
+
+https://medium.com/@arijit_chowdhury/deploy-react-app-with-react-router-to-github-pages-for-free-569377f483f
+
