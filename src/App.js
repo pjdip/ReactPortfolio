@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route } from "react-router-dom";
+import { BroswerRouter as Router, Route } from "react-router-dom";
 import Navbr from "./components/Navbar";
 import Container from "./components/Container";
 import About from "./pages/About";
@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
     return (
-        <HashRouter>
+        <Router basenam={process.env.PUBLIC_URL}>
             <div>
                 <Navbr />
                 <Container>
@@ -23,7 +23,7 @@ function App() {
                 </Container>
                 <Footer />
             </div>
-        </HashRouter>
+        </Router>
     );
 }
 
