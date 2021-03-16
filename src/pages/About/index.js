@@ -3,7 +3,7 @@ import "./style.css";
 
 const About = () => {
     return (
-        <main className="container bg-white mt-5 mx-auto">
+        <div className="container bg-white mt-5 mx-auto">
 
             <div className="row mx-1">
 
@@ -42,7 +42,7 @@ const About = () => {
                     </p>
                 </div>
             </section>
-        </main>
+        </div>
     );
 };
 

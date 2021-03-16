@@ -5,11 +5,12 @@ import "./style.css";
 const Navbr = () => {
     return (
         <Navbar bg="primary" expand="sm">
-            <Navbar.Brand className="text-white">Philip DiPaula</Navbar.Brand>
+            <h1 className="text-white myName">Philip DiPaula</h1>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto mr-3">
                     <Nav.Link className="text-white" href="/about">About</Nav.Link>
+                    <Nav.Link className="text-white" href="/gallery">Gallery</Nav.Link>
                     <Nav.Link className="text-white" href="/projects">Projects</Nav.Link>
                     <Nav.Link className="text-white" href="/contact">Contact</Nav.Link>
                 </Nav>

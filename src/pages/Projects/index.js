@@ -4,7 +4,7 @@ import "./style.css";
 
 const Projects = () => {
     return (
-        <main className="container bg-white mt-5 mx-auto">
+        <div className="container bg-white mt-5 mx-auto">
             <div className="row pt-4 text-center text-primary">
                 <div className="col">
                     <h2>Projects</h2>
@@ -66,7 +66,7 @@ const Projects = () => {
                 img2={process.env.PUBLIC_URL + "/assets/images/sort.png"}
                 img2alt={"sort functionality"}
             />
-        </main>
+        </div>
     );
 };
 
