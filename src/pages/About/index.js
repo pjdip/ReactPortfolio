@@ -15,7 +15,7 @@ const About = () => {
             <section className="row mx-1">
                 <div className="col-12 mb-4">
 
-                    <a target="_blank" rel="noreferrer" href="https://pjdip.github.io/Philip-DiPaula-OSU-bootcamp-hwk2/assets/images/prof-pic.jpg">
+                    <a target="_blank" rel="noopener noreferrer" href="https://pjdip.github.io/Philip-DiPaula-OSU-bootcamp-hwk2/assets/images/prof-pic.jpg">
                         <img className="img img-thumbnail float-left mr-3" alt="selfie in a hot tub on a cruise ship" src="./assets/images/prof-pic.jpg" />
                     </a>
                     <p>

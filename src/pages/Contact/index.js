@@ -3,8 +3,8 @@ import "./style.css";
 
 const Contact = () => {
     return (
-        <main class="contact row mt-3">
-            <div class="col">
+        <main className="contact row mt-3">
+            <div className="col">
                 <ul>
                     <li>
                         <p>Email: pjdip1@gmail.com</p>
@@ -14,8 +14,8 @@ const Contact = () => {
                     </li>
                     <li>
                         <p>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/pjdip">
-                                <i class="fab fa-github">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/pjdip">
+                                <i className="fab fa-github">
                                 </i>
                                 Github
                             </a>
@@ -23,8 +23,8 @@ const Contact = () => {
                     </li>
                     <li>
                         <p>
-                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/philip-pj-dipaula/">
-                                <i class="fab fa-linkedin">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/philip-pj-dipaula/">
+                                <i className="fab fa-linkedin">
                                 </i>
                                 LinkedIn
                             </a>

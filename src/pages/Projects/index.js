@@ -4,9 +4,9 @@ import "./style.css";
 
 const Projects = () => {
     return (
-        <main class="container bg-white mt-5 mx-auto">
-            <div class="row pt-4 text-center text-primary">
-                <div class="col">
+        <main className="container bg-white mt-5 mx-auto">
+            <div className="row pt-4 text-center text-primary">
+                <div className="col">
                     <h2>Projects</h2>
                 </div>
             </div>

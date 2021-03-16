@@ -83,3 +83,5 @@ https://react-bootstrap.github.io/getting-started/introduction/
 
 create-react-app:
 https://create-react-app.dev/docs/using-the-public-folder/
+
+https://stackoverflow.com/questions/50709625/link-with-target-blank-and-rel-noopener-noreferrer-still-vulnerable
