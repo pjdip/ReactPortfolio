@@ -1,10 +1,22 @@
 # ReactPortfolio
 
-# Getting Started with Create React App
+Here is a [link](https://pjdip.github.io/ReactPortfolio/) to the live page :D
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of this assignment was to create a mobile responsive portfolio using React and react-router-dom.
 
-## Available Scripts
+- [ReactPortfolio](#reactportfolio)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [`npm start`](#npm-start)
+  - [Credits](#credits)
+  - [Badges](#badges)
+  - [License](#license)
+
+## Installation
+
+The only thing you will need to have installed in order to run the index.html file is a functioning web browser. It should work with most versions of most browswers. I recommend the Brave browser, as you will be paid in the Basic Attention Token (BAT) for viewing ads, instead of being bombarded with ads and getting nothing for it.
+
+## Usage 
 
 In the project directory, you can run:
 
@@ -16,75 +28,41 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+Here are a few images of the page (notice the navbar indicating which section you are currently in):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![about me](./public/assets/images/about-screenshot.png)
+![projects](./public/assets/images/projects-screenshot.png)
 
-### `npm run build`
+## Credits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Thanks to react-bootstrap:
+* [npm](https://www.npmjs.com/package/react-bootstrap)
+* [docs](https://react-bootstrap.github.io/getting-started/introduction/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Thanks to react-router-dom:
+* [npm](https://www.npmjs.com/package/react-router-dom)
+* [docs](https://reactrouter.com/web/guides/quick-start)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thanks to create-react-app [docs](https://create-react-app.dev/docs/using-the-public-folder/) for help accessing images in the public folder
 
-### `npm run eject`
+Thanks to stack-overflow for [info](https://stackoverflow.com/questions/50709625/link-with-target-blank-and-rel-noopener-noreferrer-still-vulnerable) related to a complaint react was giving me
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Help with deployment:
+* [medium](https://medium.com/@arijit_chowdhury/deploy-react-app-with-react-router-to-github-pages-for-free-569377f483f) gave me some info about using "basename" with <BrowserRouter>
+* [stackoverflow](https://stackoverflow.com/questions/61300429/react-app-hashrouter-not-working-on-localhost-as-well-as-github-user-page) helped with my navigation issues
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Special Thanks to [ChilledCow](https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow) for providing chill lofi beats to code to
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Badges
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![languages](https://img.shields.io/github/languages/count/pjdip/ReactPortfolio)
+![top-language](https://img.shields.io/github/languages/top/pjdip/ReactPortfolio)
+![repo-size](https://img.shields.io/github/repo-size/pjdip/ReactPortfolio)
+![open-issues](https://img.shields.io/github/issues-raw/pjdip/ReactPortfolio)
+![last-commit](https://img.shields.io/github/last-commit/pjdip/ReactPortfolio)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-react-router-dom:
-https://www.npmjs.com/package/react-router-dom
-https://reactrouter.com/web/guides/quick-start
-
-react-bootstrap:
-https://www.npmjs.com/package/react-bootstrap
-https://react-bootstrap.github.io/getting-started/introduction/
-
-create-react-app:
-https://create-react-app.dev/docs/using-the-public-folder/
-
-https://stackoverflow.com/questions/50709625/link-with-target-blank-and-rel-noopener-noreferrer-still-vulnerable
-
-https://medium.com/@arijit_chowdhury/deploy-react-app-with-react-router-to-github-pages-for-free-569377f483f
-
+---
