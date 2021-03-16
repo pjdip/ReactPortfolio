@@ -14,39 +14,39 @@ const Gallery = () => {
 
             <div className="row ml-sm-1">
                 <GalleryItem
-                    sauce={"./assets/images/Reso-Best-Photo.jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/Reso-Best-Photo.jpg`}
                     alt={"Me with my partner at Resonance Music Festival with Tobacco and The Seven Fields of Aphelion in masks"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/pesh-pile.jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/pesh-pile.jpg`}
                     alt={"An adorable pile of Boston Terrier Puppies"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/comfy.gif"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/comfy.gif`}
                     alt={"Gif of Boston Terrier puppy getting comfy in a chair"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/cuddling-kitties.jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/cuddling-kitties.jpg`}
                     alt={"My tiny kitties that I brought home from Morocco cuddling together on the bed"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/chaouen.jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/chaouen.jpg`}
                     alt={"A view of Chefchaouen from up near the hotel/camping area"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/chaouen-from-shuyahet(kalaa).jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/chaouen-from-shuyahet(kalaa).jpg`}
                     alt={"A view of Chefchaouen from the peak of the nearest mountain at 1900 meters"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/mountain-pass.jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/mountain-pass.jpg`}
                     alt={"A view of one of the steep mountain passes to gain access to the trail to the peak of Mount Tissouka"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/akchour.jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/akchour.jpg`}
                     alt={"A lovely waterfall within a day's hiking distance of Chefchaouen"}
                 />
                 <GalleryItem
-                    sauce={"./assets/images/sharks1.jpg"}
+                    sauce={`${process.env.PUBLIC_URL}/assets/images/sharks1.jpg`}
                     alt={"Snorkeling with black-tip reef sharks in Bora Bora, Tahiti"}
                 />
             </div>
@@ -54,7 +54,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/Reso-Best-Photo.jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/Reso-Best-Photo.jpg`}
                         alt="Resonance Music Festival with Tobacco and The Seven Fields of Aphelion in masks"
                     />
                     <Carousel.Caption>
@@ -64,7 +64,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/pesh-pile.jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/pesh-pile.jpg`}
                         alt="An adorable pile of Boston Terrier Puppies"
                     />
                     <Carousel.Caption>
@@ -74,7 +74,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/comfy.gif"
+                        src={`${process.env.PUBLIC_URL}/assets/images/comfy.gif`}
                         alt="Gif of Boston Terrier puppy getting comfy in a chair"
                     />
                     <Carousel.Caption>
@@ -84,7 +84,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/cuddling-kitties.jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/cuddling-kitties.jpg`}
                         alt="My tiny kitties that I brought home from Morocco cuddling together on the bed"
                     />
                     <Carousel.Caption>
@@ -94,7 +94,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/chaouen.jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/chaouen.jpg`}
                         alt="A view of Chefchaouen from up near the hotel/camping area"
                     />
                     <Carousel.Caption>
@@ -104,7 +104,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/chaouen-from-shuyahet(kalaa).jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/chaouen-from-shuyahet(kalaa).jpg`}
                         alt="A view of Chefchaouen from the peak of the nearest mountain at 1900 meters"
                     />
                     <Carousel.Caption>
@@ -114,7 +114,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/mountain-pass.jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/mountain-pass.jpg`}
                         alt="A steep mountain pass to gain access to the trail to the peak of Mount Tissouka"
                     />
                     <Carousel.Caption>
@@ -124,7 +124,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/akchour.jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/akchour.jpg`}
                         alt="A lovely waterfall within a day's hiking distance of Chefchaouen"
                     />
                     <Carousel.Caption>
@@ -134,7 +134,7 @@ const Gallery = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./assets/images/sharks1.jpg"
+                        src={`${process.env.PUBLIC_URL}/assets/images/sharks1.jpg`}
                         alt="Snorkeling with black-tip reef sharks in Bora Bora, Tahiti"
                     />
                     <Carousel.Caption>
