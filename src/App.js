@@ -16,10 +16,10 @@ function App() {
                 <Navbr />
                 <Container>
                     <Route exact path="/" component={About} />
-                    <Route exact path="/about" component={About} />
-                    <Route exact path="/gallery" component={Gallery} />
-                    <Route exact path="/projects" component={Projects} />
-                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="ReactPortfolio/#/about" component={About} />
+                    <Route exact path="ReactPortfolio/#/gallery" component={Gallery} />
+                    <Route exact path="ReactPortfolio/#/projects" component={Projects} />
+                    <Route exact path="ReactPortfolio/#/contact" component={Contact} />
                 </Container>
                 <Footer />
             </div>
