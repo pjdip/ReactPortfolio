@@ -15,6 +15,7 @@ function App() {
             <div>
                 <Navbr />
                 <Container>
+                    <Route exact path="/" component={About} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/gallery" component={Gallery} />
                     <Route exact path="/projects" component={Projects} />
