@@ -16,7 +16,7 @@ const About = () => {
                 <div className="col-12 mb-4">
 
                     <a target="_blank" rel="noopener noreferrer" href="https://pjdip.github.io/Philip-DiPaula-OSU-bootcamp-hwk2/assets/images/prof-pic.jpg">
-                        <img className="img img-thumbnail float-left mr-3" alt="selfie in a hot tub on a cruise ship" src="./assets/images/prof-pic.jpg" />
+                        <img className="img img-thumbnail float-left mr-3" alt="selfie in a hot tub on a cruise ship" src={`${process.env.PUBLIC_URL}/assets/images/prof-pic.jpg`} />
                     </a>
                     <p>
                         Hello, my name is Philip DiPaula.
