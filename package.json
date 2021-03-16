@@ -1,6 +1,6 @@
 {
   "homepage": "https://pjdip.github.io/ReactPortfolio",
-  "name": "portfolio",
+  "name": "ReactPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
